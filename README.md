@@ -1,6 +1,6 @@
 # getsimple-docker
 Docker container file for [GetSimple CMS](http://get-simple.info/)
-This fetches the latest version from the GetSimple website, creates and runs a container named `getsimple` on the port 8080.
+This fetches the latest version from the GetSimple website, creates and runs a container named `getsimple` on the port 80.
 
 The default location of the installation will be in `/data/web/getsimple` of the host.
 
@@ -12,4 +12,4 @@ Checkout this repository on a Docker-compatible machine and open a shell in the 
 ./build.sh
 ```
 
-Then visit http://IP:8080
+Then visit http://IP
